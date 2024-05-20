@@ -4,10 +4,10 @@
 
 <mapper namespace="com.oi.oimall.Test">
 
-	<select id="testList" resultType="TestModel" parameterType="TestModel">
-		
-		select * from test
-		
-	</select>
 
+	<select id="itemList" resultType="Item"  parameterType="Item">
+		select * from Item
+	</select>
+	
+	
 </mapper>

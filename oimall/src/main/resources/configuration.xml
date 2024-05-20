@@ -6,7 +6,8 @@
 <configuration>
 	<typeAliases>
 		
-		<typeAlias alias="TestModel" type="com.oi.oimall.model.TestModel"/>
-			
+		<typeAlias alias="TestModel" 	type="com.oi.oimall.model.TestModel"/>
+		<typeAlias alias="Item" 		type="com.oi.oimall.model.Item" />
+		<typeAlias alias="Member" 		type="com.oi.oimall.model.Member" />	
 	</typeAliases>
 </configuration>
